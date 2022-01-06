@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+            table{
+                border-style:solid;
+            }
+        </style>
+        <script src = "formvalidation.js" defer></script>
+    </head>
+    <body>
+        <div>
+        <table align = "center" cellspacing = 0 cellpadding = "5">
+            <caption> <h1> Registration Form</h1> </caption>
+            <tr>
+                <td>Name </td>
+                <td > <input type = "text" id = "name" placeholder = "enter your name"></td>
+            </tr>
+            <tr>
+                <td>Email Id </td>
+                <td> <input type = "email" id = "emailId" placeholder = "example : abc@gmail.com"></td>
+            </tr> 
+            <tr>
+                <td> password </td>
+                <td> <input type = "password" id = "password" placeholder="atleast 6 characters"></td>
+            </tr>   
+            <tr>
+                <td>Phone number</td> 
+                <td> <input type = "tel" id = "phone" placeholder="enter 10-digit phone number"></td>
+            </tr> 
+            <tr>
+                <td colspan = "2">Gender &nbsp;&nbsp;&nbsp;male<input type = "radio" name = "male" id = "male" value = "male"> &nbsp; female<input type = "radio" name = "female" id = "female" value = "female"></td>
+            </tr>
+            <tr>
+               <td colspan = "2">Choose Languages Known</td>
+            </tr>
+            <tr>
+                <td colspan = "2">English
+                <input type ="checkbox" id = "english" name = "english" value = "english">
+                </td>
+            </tr> 
+            <tr>
+                <td colspan = "2">German
+                <input type ="checkbox" id = "german" name = "german" value = "german">
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">French
+                <input type ="checkbox" id = "french" name = "french" value = "french">
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">Polish
+                <input type ="checkbox" id = "polish" name = "polish" value = "polish">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><textarea rows ="4" cols = "50" name = "address" id = "regform">Type your address here</textarea></td>
+            </tr>
+            <tr>
+                <td colspan = "2"><input type ="button" id = "submit" name = "submit" value = "submit" onclick = "FormValidation()"></td>
+            </tr>    
+        </table>
+                
+         </div>
+        
+    </body>
+</html>
