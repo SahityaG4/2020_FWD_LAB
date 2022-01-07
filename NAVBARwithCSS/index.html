@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NAVBAR Demo</title>
+    <title>NAVBAR css</title>
+    <style>
+        .navbar{
+            background-color: black;
+            border-radius: 4px;
+        }
+        .navbar ul{
+            overflow: auto;
+            color: white;
+        }
+        .navbar li{
+            float: right;
+            list-style: none;
+            margin : 13px 20px;
+        }
+        .navbar li a:hover{
+            color: wheat;
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .search{
+            float: left;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <nav class ="navbar">
+            <ul>
+                <li><a href = "a">HOME</a></li>
+                <li><a href = "a">DOCS</a></li>
+                <li><a href = "a">EXAMPLES</a></li>
+                <li><a href = "a">CONTACT US</a></li>
+                <div class = "search"> 
+                    <h1> SVECW </h1>
+                </div>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
